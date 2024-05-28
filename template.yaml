@@ -1,0 +1,9 @@
+defaults:
+  project_group: "com.example"
+  project_name: "sampleapp"
+  project_version: "0.1.0"
+
+note: |
+  Hazelcast Flow project was created successfully.
+  
+  You can add the project to your Hazelcast Flow instance using Projects -> Add Project
