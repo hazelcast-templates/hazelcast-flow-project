@@ -1,0 +1,10 @@
+# Hazelcast Flow Project
+
+You can add the project to your Hazelcast Flow instance using the `Add Project` button in the `Projects` pane.
+{{ $project_dir := (get_project_dir .template .output_dir) }}
+{{- if $project_dir }}
+If you are using the default `docker-compose.yaml` shipped with the Flow starter template, then use the following path in the Path field of the Project dialog:
+```
+/opt/service/workspace/{{ $project_dir }}
+```
+{{- end }}
