@@ -2,7 +2,7 @@
 
 This template creates a blank Hazelcast Flow project.
 
-To create the project with the default settings, run the following command:
+To create the project with the default settings, run the following command in the `workspace` directory of a Flow workspace.
 
 ```
 clc project create -t hazelcast-flow-project -o project-name
